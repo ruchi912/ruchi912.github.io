@@ -113,7 +113,7 @@ module.exports = function (webpackEnv) {
         // css is located in `static/css`, use '../../' to locate index.html folder
         // in production `paths.publicUrlOrPath` can be a relative path
         options: paths.publicUrlOrPath.startsWith(".")
-          ? { publicPath: "../../" }
+          ? { publicPath: "/" }
           : {},
       },
       {
@@ -640,7 +640,7 @@ module.exports = function (webpackEnv) {
       //   can be used to reconstruct the HTML if necessary
       new WebpackManifestPlugin({
         fileName: "asset-manifest.json",
-        publicPath: paths.publicUrlOrPath,
+        publicPath: "/",
         generate: (seed, files, entrypoints) => {
           const manifestFiles = files.reduce((manifest, file) => {
             manifest[file.name] = file.path;
