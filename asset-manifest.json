@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.931e8a87.css",
+    "main.js": "/static/js/main.56a3bcef.js",
+    "static/js/453.88a6df83.chunk.js": "/static/js/453.88a6df83.chunk.js",
+    "static/media/temple_Pic_1.png": "/static/media/temple_Pic_1.3171a11134568dcb81c5.png",
+    "static/media/ganesh_Pic_1.png": "/static/media/ganesh_Pic_1.41f4fc5cf3b2f586e5f2.png",
+    "static/media/shiva_pic_1.png": "/static/media/shiva_pic_1.2f0a63115af67c8a008e.png",
+    "static/media/temple_Pic_2.png": "/static/media/temple_Pic_2.6d4cdd9c39b6394049c6.png",
+    "static/media/rajrajeswardevi_pic_1.png": "/static/media/rajrajeswardevi_pic_1.8af6fb0dfb5ce940ef2c.png",
+    "static/media/logo_devi.png": "/static/media/logo_devi.d5120c8b95efccf2427c.png",
+    "static/media/temple_Pic_3.jpg": "/static/media/temple_Pic_3.117f5bfe4983fda36a36.jpg",
+    "static/media/temple_Pic_4.jpg": "/static/media/temple_Pic_4.4397802c676723019db5.jpg",
+    "index.html": "/index.html",
+    "main.931e8a87.css.map": "/static/css/main.931e8a87.css.map",
+    "main.56a3bcef.js.map": "/static/js/main.56a3bcef.js.map",
+    "453.88a6df83.chunk.js.map": "/static/js/453.88a6df83.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.931e8a87.css",
+    "static/js/main.56a3bcef.js"
+  ]
+}
