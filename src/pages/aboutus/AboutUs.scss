@@ -1,0 +1,56 @@
+.accordion_tab{
+    // max-width: 640px;
+    padding: 10px;
+}
+
+.accordion_tab_wrapper{
+    display: flex;
+    gap: 20px;
+}
+
+.accordion_tab_group .tab{
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 8px 2px;
+    background: #fcd5ce70;
+    width: 100%;
+    display: inline-block;
+    color: #9d796b;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 0.8rem #eadad81e;
+    border: 2px solid #bc6c2520;
+}
+.accordion_tab_group .tab:hover{
+    background: #9d796b;
+    color: #ffffff;
+}
+
+#one:checked ~ .accordion_tab_group #one-tab,
+#two:checked ~ .accordion_tab_group #two-tab,
+#three:checked ~ .accordion_tab_group #three-tab,
+#four:checked ~ .accordion_tab_group #four-tab,
+#five:checked ~ .accordion_tab_group #five-tab
+{
+    background: #ff4500;
+    color: #ffffff;
+}
+.accordion_tab_wrapper input[type="radio"]{
+    display: none;
+}
+.accordion_tab_contents{
+    background: #9d796b;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+#one:checked ~ .accordion_tab_contents #one-tab-content,
+#two:checked ~ .accordion_tab_contents #two-tab-content,
+#three:checked ~ .accordion_tab_contents #three-tab-content,
+#four:checked ~ .accordion_tab_contents #four-tab-content,
+#five:checked ~ .accordion_tab_contents #five-tab-content
+{
+    display: block;
+}
+.accordion_tab_contents .accordion_tab_content{
+    display: none;
+}
