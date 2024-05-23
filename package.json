@@ -31,7 +31,7 @@
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build"
   },
-  "homepage": "https://ruchi912.gihub.io/",
+  "homepage": "https://ruchi912.gihub.io",
   "eslintConfig": {
     "extends": [
       "react-app",
